@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lasagne</title>
 </head>
+
 <body style="background-color:#fff1a4;">
 
     <center>
@@ -14,14 +15,19 @@
 
     <table align="left" style="width:80%"> <!-- border="solid" - to see frame -->
         <!-- <caption>Lasagna with béchamel sauce</caption> -->
+
+
         <tr align="center">
-            <td width="30%"> 
+
+            <td width="30%">                <!-- (1,1) Navigation in table -->
                 <img src="../images/lasagne.jpg" alt="Fire wok" width="300">
             </td>
-            <td width="10%" rowspan="2">
+
+            <td width="10%" rowspan="2">    <!-- (1-2,2) Navigation in table -->
                 <!-- empty column -->
             </td>
-            <td valign="center" width="60%">
+
+            <td valign="center" width="60%"><!-- (1,3) Navigation in table -->
                 <h2>Descriptions</h2>
                 <br>
                 <span style="font-size:1.5vw">
@@ -30,8 +36,11 @@
                 </span>
             </td>
         </tr>
+
+
         <tr align="left">
-            <td valign="top">
+
+            <td valign="top">       <!-- (2,1) Navigation in table -->
                 <h3>
                     Ingredients
                 </h3>
@@ -63,7 +72,8 @@
                     <li>2 tablespoons finely chopped fresh parsley</li>
                 </ul>
             </td>
-            <td valign="top">
+
+            <td valign="top">   <!-- (2,3) Navigation in table -->
                 <h3>Instructions</h3>
                 Meat Sauce:
                 <ol>
@@ -135,9 +145,12 @@
                 </ol>
             </td>
         </tr>
+
+
         <tfoot>
+
             <tr align="center">
-                <td colspan="3" height="120" valign="top">
+                <td colspan="3" height="120" valign="top"> <!-- (3,1-3) Navigation in table -->
                     <h3>Nutrition</h3>
                     Calories: 613kcal | Carbohydrates: 39g | Protein: 38g |
                     Fat: 31g | Saturated Fat: 15g | Cholesterol: 133mg |
@@ -146,8 +159,9 @@
                     Iron: 5.7mg
                 </td>
             </tr> 
+            
             <tr>
-                <td colspan="3" valign="top">
+                <td colspan="3" valign="top">       <!-- (4,1-3) Navigation in table -->
 
                 <!-- Lift up #top -->
                     <p>
@@ -164,7 +178,9 @@
                     </p>
                 </td>
             </tr>
+
         </tfoot>
+
     </table>  
 
 
