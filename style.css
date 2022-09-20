@@ -8,12 +8,17 @@ body{
 div{
     text-align: center;
 }
-/* 
+
 #container{
-    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /* flex-direction: column; */
     margin-left: auto;
     margin-right: auto;
-} */
+}
 
 
 /* Lists */
@@ -53,8 +58,13 @@ iframe{
 /* Website's top */
 
 .header{
-    float:left;
-    width: 50%;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+    /* float:left; */
+    /* width: 50%; */
     /* padding: 0 5px 0 5px; */
     /* position: relative; */
 }
