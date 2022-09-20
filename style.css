@@ -1,0 +1,60 @@
+body{
+    background-color:#fff1a4;"
+}
+
+
+/* Content text in website */
+
+div{
+    text-align: center;
+}
+/* 
+#container{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+
+/* Lists */
+
+li,
+ol,
+ul{
+    text-align: left;
+}
+
+ol.li {
+    list-style-type: square;
+}
+
+/* Title */
+
+h1{
+    background-color: #ffe96e;
+    font-size: 60px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+/* YouTube video */
+
+iframe{
+    width:640px;
+    height:360px;
+}
+
+/* Website's top */
+
+.header{
+    float:left;
+    width: 50%;
+    /* padding: 0 5px 0 5px; */
+    /* position: relative; */
+}
