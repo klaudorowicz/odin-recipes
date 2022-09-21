@@ -1,5 +1,6 @@
 body{
     background-color:#fff1a4;"
+    font-family: "Times New Roman", serif;
 }
 
 
@@ -67,4 +68,20 @@ iframe{
     /* width: 50%; */
     /* padding: 0 5px 0 5px; */
     /* position: relative; */
+}
+
+/* Button */
+
+button{
+    text-decoration:none;
+    color: black;
+    background-color: #f8de48;
+    font-size: 20px;
+    font-family: "Times New Roman", serif;
+    padding: 10px 50px;
+    border-radius: 22px;
+}
+
+button:hover{
+    background-color: #ddbe0f;
 }
