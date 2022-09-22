@@ -38,7 +38,7 @@ ol.li {
 
 h1{
     background-color: #ffe96e;
-    font-size: 60px;
+    font-size: 60px;   
 }
 
 h2{
@@ -52,8 +52,10 @@ h3{
 /* YouTube video */
 
 iframe{
-    width:640px;
-    height:360px;
+    width: 100vw;
+    max-width: 640px;
+    height:100vw;
+    max-height:360px;
 }
 
 /* Website's top */
@@ -80,8 +82,14 @@ button{
     font-family: "Times New Roman", serif;
     padding: 10px 50px;
     border-radius: 22px;
+    margin: 5px;
 }
 
 button:hover{
     background-color: #ddbe0f;
+}
+
+img{
+    width: 100vw;
+    max-width: 600px;
 }
